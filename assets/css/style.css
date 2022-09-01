@@ -1,0 +1,23 @@
+/* common rules */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+:root{
+    --title-color: #E53170;
+    --paragraph-color: #2b4c79;
+    --title-cards-color: #ffffe5;
+    --job-color: #d7f0dc;
+    --contact-color: #053a7f;
+}
+
+/* */
+
