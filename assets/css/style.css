@@ -5,12 +5,9 @@
     box-sizing: border-box;
 }
 
-.clearfix::after{
-    content: '';
-    display: table;
-    clear: both;
+body{
+    font-family: 'Roboto', sans-serif;
 }
-
 :root{
     --title-color: #E53170;
     --paragraph-color: #2b4c79;
@@ -19,5 +16,28 @@
     --contact-color: #053a7f;
 }
 
-/* */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
 
+
+.container{
+    width: 60%;
+    margin:auto;
+}
+
+h1{
+    color: var(--title-color);
+    padding-top:2rem;
+    margin-bottom:2rem;
+    font-size: 2.5rem;
+}
+
+
+/* header */
+
+header{
+ text-align: center;   
+}
