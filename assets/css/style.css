@@ -13,18 +13,17 @@ body{
     --paragraph-color: #2b4c79;
     --title-cards-color: #ffffe5;
     --job-color: #d7f0dc;
-    --contact-color: #053a7f;
+    --contact-color: #136ce0;
 }
 
 .clearfix::after{
-    content: '';
+    content:'';
     display: table;
     clear: both;
 }
 
-
 .container{
-    width: 60%;
+    width: 70%;
     margin:auto;
 }
 
@@ -35,9 +34,49 @@ h1{
     font-size: 2.5rem;
 }
 
+h3{
+    color: var(--title-cards-color);
+    font-weight: bold;
+}
+
+a{
+    color:var(--contact-color);
+}
+img {
+    float:left;
+    margin-right: 1rem;
+}
 
 /* header */
 
 header{
  text-align: center;   
+}
+
+/* main */
+
+.row{
+    margin-top:3rem;
+}
+
+.card{
+    width:calc(100% / 3 - 2rem);
+    background-color: black;
+    box-shadow: 5px 10px 8px #888888;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    float:left;
+}
+
+.description{
+    float:left;
+    padding-top: 1rem;
+}
+
+.profession{
+    color:var(--job-color);
+}
+
+div > h3, div > .profession, div > a{
+    margin-bottom: 0.5rem;
 }
